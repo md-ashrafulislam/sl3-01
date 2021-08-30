@@ -14,14 +14,14 @@ printf("%d ano(s)\n%d mes(es)\n%d dia(s)\n", y,m,d);
 // printf("%d dia(s)\n", day); 
 
 
-/* int N,h,m,s;
+int N,h,m,s;
 
 scanf("%d", &N);
 h = N/3600;
 m = (N-(h*3600))/60;
 s = (N-(h*3600+m*60));
 
-printf("%d:%d:%d\n", h,m,s); */
+printf("%d:%d:%d\n", h,m,s);
 
 // if B is greater than C
 //and D is greater than A 
@@ -91,8 +91,9 @@ for(line=0; line<number; line++){
 int line, space, star, number;
 
 // scanf("%d",&number);
-for(line=0; line<4; line++){
-
+/* for(line=0; line<4; line++){
+for(space=0; space>line; space++){
+          printf(" ");
      for(star=0; star<=(line+3); star--){
           printf("*");
      }
@@ -100,10 +101,10 @@ for(line=0; line<4; line++){
      /* for(space=0; space>line; space++){
           printf(" ");
 
-     } */
+     } 
      
      printf("\n");
-}
+}; */
 
      return 0;
 } 

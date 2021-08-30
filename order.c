@@ -3,8 +3,7 @@
 int main(){
 //ascending & descending order:
 
-    int a, b, c;
-    int small, medium, big;
+    int a, b, c, small, medium, big;
     
 
 
@@ -83,9 +82,11 @@ while (1){
             big = a;
         }
     }
-    printf("%d %d %d",small,medium,big );
+    printf("%d\n%d\n%d\n\n",small,medium,big );
+    printf("%d\n%d\n%d\n", a, b, c);
 }
-printf("Finished!");
+
+
 
 
 

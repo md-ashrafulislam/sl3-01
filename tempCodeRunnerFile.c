@@ -1,1 +1,2 @@
-    k=1;
+ printf("Enter value : ");
+     scanf("%d", &value);
